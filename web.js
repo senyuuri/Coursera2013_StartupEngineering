@@ -1,5 +1,6 @@
 var express = require('express');
 var fs = require('fs');
+var buffer = New Buffer(30);
 
 var app = express.createServer(express.logger());
 
